@@ -1,33 +1,33 @@
 @import 'fonts.css';
 
-body {
+body{
   font-family: 'Open Sans';
 }
-ul, li {
+ul, li{
   display: block;
   padding: 0;
   margin: 0;
 }
-.menu-bar {
+.menu-bar{
   background: #fff;
   padding: 20px 0;
   color: #212121;
 }
-.menu__item {
+.menu__item{
   margin-left: 37px;
 }
-.menu__item a {
+.menu__item a{
   font-family: 'Open Sans Semibold';
   font-size: 20px;
   color: #212121;
 }
-.menu__item a:hover {
+.menu__item a:hover{
   text-decoration: none;
   color: #868686;
 }
 
 /*---  Шапка  ---*/
-.header>div {
+.header{
   color: white;
   text-align: center;
   padding: 180px 0;
@@ -35,32 +35,26 @@ ul, li {
   background-position: 0 100%;
   background-image: url(../img/header.png);
 }
-.header__title {
+.header__title{
   font-size: 55px;
 }
-.header__text {
+.header__text{
   font-size: 20px;
   margin-bottom: 100px;
 }
-.button {
+.button{
+  text-transform: uppercase;
+  cursor: pointer;
   padding: 10px 25px;
   margin: 0 10px;
   color: white;
   transition: 0.3s;
-}
-.button_empty {
-  background: transparent;
-  border: 2px solid white;
-}
-.button_full {
   background: #00897b;
   border: 2px solid #00897b;
 }
-.button_empty:hover,
-.button_full:hover {
-  border: 2px dotted white;
-  background: #04574e;
-  cursor: pointer;
+.button:hover{
+  background: transparent;
+  border: 2px solid white;
 }
 
 /*---  О нас  ---*/
@@ -135,4 +129,22 @@ ul, li {
   padding: 10px 12px 10px;
   font-family: 'Open Sans Semibold';
   transition: 0.3s;
+}
+
+/*---  Портфолио  ---*/
+.portfolio{
+  text-align: center;
+  padding-top: 120px;
+  padding-bottom: 125px;
+}
+.portfolio button:hover{
+  color: black;
+  background: transparent;
+  border: 2px solid #00897b;
+}
+.portfolio img{
+  margin-bottom: 30px;
+}
+.filter{
+  padding: 120px 0;
 }
